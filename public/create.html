@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+    <script src="./create.js" defer></script>
+</head>
+<body>
+    <div class="review_camp">
+        <input type="text" id="title" placeholder="Título">
+        <select id="type">
+            <option value="review">Review</option>
+            <option value="critic">Critica</option>
+            <option value="analysis">Análise</option>
+            <option value="opnion">Opnião</option>
+        </select>
+        <select id="genre">
+            <option value="movie">Filme</option>
+            <option value="serie">Série</option>
+            <option value="game">Jogo</option>
+        </select>
+        <input type="text" id="content">
+        <button onclick="Create()">Publicar</button>
+    </div>
+</body>
+</html>
