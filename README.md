@@ -1,6 +1,6 @@
 # Cineline
 
-Plataforma completa (Full Stack) para reviews de filmes, séries e jogos, com autenticação segura via JWT. Construída utilizando Node.js, Express, PostgreSQL, Docker e bcrypt.
+Projeto de plataforma Full Stack para reviews de filmes, séries e jogos, com autenticação segura via JWT. Construída utilizando Node.js, Express, PostgreSQL, Docker e bcrypt.
 
 ## Tecnologias utilizadas
 
