@@ -1,0 +1,121 @@
+body {
+    --bgcolor: rgb(43, 36, 32);
+    --color2: rgb(31, 23, 23);
+    --text-color: rgb(221, 221, 221);
+    --red-color: rgb(224, 50, 50);
+    font-family: "IBM Plex Mono";
+    color: var(--text-color);
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: var(--bgcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+.tab {
+    display: flex;
+    padding: 10vh;
+    background-color: var(--color2);
+}
+
+.login {
+    margin: 2.5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-user {
+    font-size: 18px;
+    height: 5vh;
+    background-color: var(--bgcolor);
+    color: var(--text-color);
+    font-family: "IBM Plex Mono";
+    border-radius: 10px;
+    margin: 1.5vh;
+    border-style: none;
+}
+
+button:hover {
+    cursor: pointer;
+    color: var(--red-color);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.title {
+    font-family: "IBM Plex Sans";
+    font-weight: 300;
+    font-size: 64px;
+    color: rgb(0, 138, 218)
+}
+
+.red {
+    color: var(--red-color);
+}
+
+.create-button {
+    font-size: 18px;
+    font-weight: b;
+    background-color: var(--color2);
+    color: var(--text-color);
+    font-family: "IBM Plex Mono";
+    border-radius: 5px;
+    border-style: none;
+    aspect-ratio: 1/1;
+    width: 15vh;
+}
+
+.review-button {
+    font-size: 18px;
+    font-weight: b;
+    background-color: var(--bgcolor);
+    color: var(--text-color);
+    font-family: "IBM Plex Mono";
+    border-radius: 5px;
+    margin: 2.5vh;
+    border-style: none;
+    aspect-ratio: 1/1;
+    width: 15vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.review-button:hover {
+    background-color: var(--red-color);
+    color: var(--color2);
+}
+
+.review {
+    display:flex;
+    flex-direction: column;
+    padding: 2.5vh;
+}
+
+.content { /* content as a class refers to the review view page*/
+    max-width: 100vh;
+    overflow-wrap: break-word;
+}
+
+#content { /* content as a id refers to the create review page*/
+    background-color: var(--color2);
+    width: 85vh;
+    min-height: 60vh;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.cineline {
+    display: flex;
+    flex-direction: column;
+}
